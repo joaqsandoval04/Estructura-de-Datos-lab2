@@ -1,7 +1,7 @@
 #include <iostream>
-#include "heapsort.h"
-#include "insertionsort.h"
-#include "countingsort.h"
+#include "algoritmos/heapsort.h"
+#include "algoritmos/insertionsort.h"
+#include "algoritmos/countingsort.h"
 #include <vector>
 using namespace std;
 
