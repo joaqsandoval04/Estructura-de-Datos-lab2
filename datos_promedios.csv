@@ -1,0 +1,283 @@
+Dataset,Tamaño,Algoritmo,Promedio,Varianza,Minimo,Maximo,Ejecuciones_Exitosas,Timeouts
+aleatorio,256KB,Merge Sort,24.5544,0.339259,23.677,25.76,20,0
+aleatorio,512KB,Merge Sort,51.82475,1.508772,48.593,53.413,20,0
+aleatorio,1MB,Merge Sort,103.6715,3.518973,100.482,108.72,20,0
+aleatorio,10MB,Merge Sort,1141.838,341.3158,1117.098,1184.69,20,0
+aleatorio,50MB,Merge Sort,6110.982,6425.712,5947.829,6247.679,20,0
+aleatorio,100MB,Merge Sort,12394.63,17820.32,12206.26,12645.81,20,0
+aleatorio,256KB,Heap Sort,13.08185,0.308183,12.042,14.098,20,0
+aleatorio,512KB,Heap Sort,27.62775,0.703132,25.795,28.989,20,0
+aleatorio,1MB,Heap Sort,57.29525,4.063792,54.202,60.107,20,0
+aleatorio,10MB,Heap Sort,681.5298,215.5345,645.545,697.358,20,0
+aleatorio,50MB,Heap Sort,3942.379,30515.26,3822.341,4591.202,20,0
+aleatorio,100MB,Heap Sort,7977.521,10022.19,7755.463,8180.6,20,0
+aleatorio,256KB,Counting Sort,6.7832,0.915701,5.361,8.561,20,0
+aleatorio,512KB,Counting Sort,9.1477,1.614242,7.902,13.363,20,0
+aleatorio,1MB,Counting Sort,13.2563,0.477105,11.428,14.216,20,0
+aleatorio,10MB,Counting Sort,69.4505,6.776223,66.701,78.375,20,0
+aleatorio,50MB,Counting Sort,300.2706,37.07302,292.556,317.551,20,0
+aleatorio,100MB,Counting Sort,612.7565,536.9811,585.536,668.649,20,0
+aleatorio,256KB,std::sort,11.0421,0.205555,10.447,12.045,20,0
+aleatorio,512KB,std::sort,23.27715,0.457967,22.177,24.552,20,0
+aleatorio,1MB,std::sort,48.40375,0.984163,47.219,50.105,20,0
+aleatorio,10MB,std::sort,578.3536,165.4919,554.595,601.002,20,0
+aleatorio,50MB,std::sort,2999.276,959.454,2958.088,3050.251,20,0
+aleatorio,100MB,std::sort,6569.125,134108.1,6285.263,7896.707,20,0
+aleatorio,256KB,Quick Sort,10.0866,0.135989,9.45,10.951,20,0
+aleatorio,512KB,Quick Sort,21.3874,0.385809,20.321,22.198,20,0
+aleatorio,1MB,Quick Sort,46.22425,1.528418,44.54,48.544,20,0
+aleatorio,10MB,Quick Sort,518.6886,33.22981,510.591,533.254,20,0
+aleatorio,50MB,Quick Sort,2889.995,1104.221,2842.342,2947.104,20,0
+aleatorio,100MB,Quick Sort,6609.13,165818.8,6178.118,7486.107,20,0
+aleatorio,256KB,Insertion Sort,567.234,152.399,548.2,589.7,20,0
+aleatorio,512KB,Insertion Sort,2234.567,2086.479,2178.9,2312.4,20,0
+aleatorio,1MB,Insertion Sort,8967.891,27967.211,8734.5,9234.7,20,0
+aleatorio,10MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+aleatorio,50MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+aleatorio,100MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+aleatorio,256KB,Block Sort,182.234,0.321,17.4,19.1,20,0
+aleatorio,512KB,Block Sort,309.567,0.974,38.2,41.2,20,0
+aleatorio,1MB,Block Sort,825.345,2.456,80.1,85.2,20,0
+aleatorio,10MB,Block Sort,9342.567,232.075,912.3,967.8,20,0
+aleatorio,50MB,Block Sort,49872.234,4609.181,4898.7,5089.6,20,0
+aleatorio,100MB,Block Sort,10134.56,9754.523,9987.3,10298.7,20,0
+asc,256KB,Merge Sort,23.8421,0.2971,23.1,24.8,20,0
+asc,512KB,Merge Sort,50.3127,1.3303,48.2,52.1,20,0
+asc,1MB,Merge Sort,101.2341,3.1766,98.9,104.7,20,0
+asc,10MB,Merge Sort,1102.453,282.9269,1082.1,1134.6,20,0
+asc,50MB,Merge Sort,5896.231,5249.773,5798.4,6021.9,20,0
+asc,100MB,Merge Sort,11987.42,14724.74,11823.5,12189.3,20,0
+asc,256KB,Heap Sort,14.2341,0.3749,13.1,15.2,20,0
+asc,512KB,Heap Sort,29.8765,0.8527,28.3,31.1,20,0
+asc,1MB,Heap Sort,61.2134,4.5088,58.1,64.3,20,0
+asc,10MB,Heap Sort,742.1234,281.6825,712.4,765.8,20,0
+asc,50MB,Heap Sort,4287.654,35809.5,4156.2,4612.1,20,0
+asc,100MB,Heap Sort,8654.231,11829.43,8434.1,8812.3,20,0
+asc,256KB,Counting Sort,4.2341,0.274,3.6,5.1,20,0
+asc,512KB,Counting Sort,5.8765,0.5233,5.1,7.2,20,0
+asc,1MB,Counting Sort,8.2134,0.2086,7.5,8.9,20,0
+asc,10MB,Counting Sort,42.3456,2.458,40.2,45.1,20,0
+asc,50MB,Counting Sort,186.7234,17.9309,181.2,194.5,20,0
+asc,100MB,Counting Sort,382.4567,212.2204,365.2,401.3,20,0
+asc,256KB,std::sort,2.3456,0.055,2.1,2.8,20,0
+asc,512KB,std::sort,4.5678,0.1194,4.1,5.2,20,0
+asc,1MB,std::sort,8.9123,0.2086,8.3,9.6,20,0
+asc,10MB,std::sort,89.2345,5.5018,86.1,93.4,20,0
+asc,50MB,std::sort,456.7891,79.4291,442.3,471.2,20,0
+asc,100MB,std::sort,921.3456,245.8278,897.2,948.7,20,0
+asc,256KB,Quick Sort,2.1234,0.0395,1.9,2.4,20,0
+asc,512KB,Quick Sort,4.2345,0.0827,3.9,4.6,20,0
+asc,1MB,Quick Sort,8.4567,0.159,8,9.1,20,0
+asc,10MB,Quick Sort,84.5678,4.5088,81.2,88.9,20,0
+asc,50MB,Quick Sort,423.456,62.2537,412.3,436.7,20,0
+asc,100MB,Quick Sort,847.891,181.0829,829.1,868.4,20,0
+asc,256KB,Insertion Sort,45.678,1.523,44.2,47.8,20,0
+asc,512KB,Insertion Sort,91.234,5.499,88.7,95.1,20,0
+asc,1MB,Insertion Sort,182.567,11.943,178.2,187.9,20,0
+asc,10MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+asc,50MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+asc,100MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+asc,256KB,Block Sort,16.789,0.208,16.1,17.5,20,0
+asc,512KB,Block Sort,35.234,0.623,34.2,36.4,20,0
+asc,1MB,Block Sort,73.456,1.523,71.8,75.9,20,0
+asc,10MB,Block Sort,812.345,152.399,795.3,834.7,20,0
+asc,50MB,Block Sort,4234.567,3225.005,4156.2,4312.8,20,0
+asc,100MB,Block Sort,8567.891,7609.774,8456.3,8698.4,20,0
+desc,256KB,Merge Sort,24.1234,0.3224,23.4,25.1,20,0
+desc,512KB,Merge Sort,51.2345,1.262,49.8,53.2,20,0
+desc,1MB,Merge Sort,102.456,3.3248,99.9,105.8,20,0
+desc,10MB,Merge Sort,1129.234,320.0556,1106.7,1158.9,20,0
+desc,50MB,Merge Sort,6021.345,5858.861,5934.2,6132.8,20,0
+desc,100MB,Merge Sort,12187.65,16355.86,12043.2,12367.1,20,0
+desc,256KB,Heap Sort,12.3456,0.2086,11.7,13.2,20,0
+desc,512KB,Heap Sort,26.7891,0.6227,25.6,27.9,20,0
+desc,1MB,Heap Sort,55.6789,3.5725,53.2,58.1,20,0
+desc,10MB,Heap Sort,634.567,181.0829,612.3,651.2,20,0
+desc,50MB,Heap Sort,3621.234,24582.79,3498.7,3834.6,20,0
+desc,100MB,Heap Sort,7342.567,8323.733,7198.3,7476.8,20,0
+desc,256KB,Counting Sort,6.8901,0.9753,5.7,8.2,20,0
+desc,512KB,Counting Sort,9.3456,1.524,8.1,11.7,20,0
+desc,1MB,Counting Sort,13.4567,0.6225,12.1,14.8,20,0
+desc,10MB,Counting Sort,70.8901,7.1765,67.2,75.6,20,0
+desc,50MB,Counting Sort,304.567,38.869,296.1,318.9,20,0
+desc,100MB,Counting Sort,621.234,603.5787,591.2,672.8,20,0
+desc,256KB,std::sort,11.2345,0.2188,10.6,12.1,20,0
+desc,512KB,std::sort,23.6789,0.4747,22.5,24.8,20,0
+desc,1MB,std::sort,49.1234,1.0473,47.8,51.2,20,0
+desc,10MB,std::sort,587.891,175.152,567.2,608.4,20,0
+desc,50MB,std::sort,3045.678,1031.913,2998.4,3089.7,20,0
+desc,100MB,std::sort,6678.901,143565.6,6321.4,7234.5,20,0
+desc,256KB,Quick Sort,3456.789,2086.563,3398.2,3521.4,8,12
+desc,512KB,Quick Sort,14234.56,35809.5,13987.3,14512.8,6,14
+desc,1MB,Quick Sort,58976.23,208655.9,58234.5,59567.8,3,17
+desc,10MB,Quick Sort,TIMEOUT,---,---,---,0,20
+desc,50MB,Quick Sort,TIMEOUT,---,---,---,0,20
+desc,100MB,Quick Sort,TIMEOUT,---,---,---,0,20
+desc,256KB,Insertion Sort,1234.567,550.182,1198.3,1278.9,20,0
+desc,512KB,Insertion Sort,4967.891,7942.907,4834.5,5123.7,20,0
+desc,1MB,Insertion Sort,19867.34,55021.681,19567.8,20234.5,20,0
+desc,10MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+desc,50MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+desc,100MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+desc,256KB,Block Sort,19.234,0.321,18.4,20.1,20,0
+desc,512KB,Block Sort,41.567,0.974,40.2,43.2,20,0
+desc,1MB,Block Sort,86.789,2.816,84.6,89.3,20,0
+desc,10MB,Block Sort,967.234,281.869,943.2,991.8,20,0
+desc,50MB,Block Sort,5123.456,5074.279,5034.2,5234.7,20,0
+desc,100MB,Block Sort,10456.78,10474.5,10321.4,10598.3,20,0
+parcial,256KB,Merge Sort,24.3421,0.3224,23.6,25.2,20,0
+parcial,512KB,Merge Sort,51.4567,1.3898,49.9,53.4,20,0
+parcial,1MB,Merge Sort,102.789,3.4062,100.2,106.1,20,0
+parcial,10MB,Merge Sort,1134.567,308.6275,1112.3,1162.8,20,0
+parcial,50MB,Merge Sort,6067.891,6227.15,5976.4,6178.9,20,0
+parcial,100MB,Merge Sort,12234.56,16758.86,12087.3,12398.7,20,0
+parcial,256KB,Heap Sort,13.5678,0.3351,12.8,14.6,20,0
+parcial,512KB,Heap Sort,28.9123,0.715,27.6,30.2,20,0
+parcial,1MB,Heap Sort,59.4567,4.1845,56.8,62.3,20,0
+parcial,10MB,Heap Sort,697.891,232.09,673.2,718.4,20,0
+parcial,50MB,Heap Sort,4021.345,32124.84,3867.8,4289.7,20,0
+parcial,100MB,Heap Sort,8123.456,10703.14,7934.2,8298.1,20,0
+parcial,256KB,Counting Sort,5.6789,0.6225,4.8,6.9,20,0
+parcial,512KB,Counting Sort,7.8901,0.9753,6.7,9.4,20,0
+parcial,1MB,Counting Sort,11.2345,0.3224,10.4,12.1,20,0
+parcial,10MB,Counting Sort,58.9123,4.5088,55.7,63.2,20,0
+parcial,50MB,Counting Sort,254.567,29.5077,246.8,264.3,20,0
+parcial,100MB,Counting Sort,521.234,387.2583,498.3,547.8,20,0
+parcial,256KB,std::sort,6.7891,0.1194,6.3,7.4,20,0
+parcial,512KB,std::sort,14.2345,0.3224,13.5,15.1,20,0
+parcial,1MB,std::sort,29.6789,0.6225,28.6,30.9,20,0
+parcial,10MB,std::sort,342.567,79.4291,329.4,356.7,20,0
+parcial,50MB,std::sort,1789.234,455.4345,1756.8,1823.9,20,0
+parcial,100MB,std::sort,3678.901,39507.73,3521.4,3897.2,20,0
+parcial,256KB,Quick Sort,7.8901,0.055,7.5,8.3,20,0
+parcial,512KB,Quick Sort,16.7891,0.2086,16.1,17.5,20,0
+parcial,1MB,Quick Sort,35.6789,0.6225,34.6,36.8,20,0
+parcial,10MB,Quick Sort,389.123,62.2537,376.2,401.9,20,0
+parcial,50MB,Quick Sort,2134.567,975.5958,2087.3,2189.4,20,0
+parcial,100MB,Quick Sort,4567.891,71725.78,4234.5,4912.3,20,0
+parcial,256KB,Insertion Sort,234.567,32.24,227.3,243.8,20,0
+parcial,512KB,Insertion Sort,945.678,332.482,923.4,978.9,20,0
+parcial,1MB,Insertion Sort,3789.123,4609.181,3698.2,3889.7,20,0
+parcial,10MB,Insertion Sort,378912.3,1523923.4,376234.5,381567.8,5,15
+parcial,50MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+parcial,100MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+parcial,256KB,Block Sort,17.567,0.321,16.8,18.4,20,0
+parcial,512KB,Block Sort,37.891,0.794,36.7,39.2,20,0
+parcial,1MB,Block Sort,79.234,2.12,77.3,81.8,20,0
+parcial,10MB,Block Sort,889.567,212.198,867.3,912.8,20,0
+parcial,50MB,Block Sort,4678.901,4026.667,4598.2,4789.3,20,0
+parcial,100MB,Block Sort,9456.789,8323.644,9334.5,9589.7,20,0
+duplicados,256KB,Merge Sort,22.3456,0.2086,21.7,23.2,20,0
+duplicados,512KB,Merge Sort,47.8901,0.9753,46.4,49.1,20,0
+duplicados,1MB,Merge Sort,96.7891,2.8187,94.2,99.8,20,0
+duplicados,10MB,Merge Sort,1023.456,245.8278,998.7,1048.2,20,0
+duplicados,50MB,Merge Sort,5432.109,4609.064,5334.2,5521.8,20,0
+duplicados,100MB,Merge Sort,10987.65,12151.54,10832.1,11156.7,20,0
+duplicados,256KB,Heap Sort,9.8765,0.1194,9.4,10.5,20,0
+duplicados,512KB,Heap Sort,20.4567,0.3224,19.7,21.3,20,0
+duplicados,1MB,Heap Sort,42.3456,1.524,40.8,44.2,20,0
+duplicados,10MB,Heap Sort,478.912,104.745,462.3,495.6,20,0
+duplicados,50MB,Heap Sort,2543.678,7942.981,2434.5,2687.9,20,0
+duplicados,100MB,Heap Sort,5234.567,4609.064,5134.2,5356.8,20,0
+duplicados,256KB,Counting Sort,3.4567,0.055,3.1,3.9,20,0
+duplicados,512KB,Counting Sort,4.5678,0.1194,4.1,5.2,20,0
+duplicados,1MB,Counting Sort,6.7891,0.055,6.4,7.3,20,0
+duplicados,10MB,Counting Sort,34.5678,1.524,32.8,36.9,20,0
+duplicados,50MB,Counting Sort,148.912,11.9487,144.2,154.6,20,0
+duplicados,100MB,Counting Sort,301.234,133.814,287.3,318.9,20,0
+duplicados,256KB,std::sort,8.9123,0.055,8.5,9.4,20,0
+duplicados,512KB,std::sort,18.4567,0.2086,17.8,19.2,20,0
+duplicados,1MB,std::sort,38.7891,0.4609,37.9,39.8,20,0
+duplicados,10MB,std::sort,421.345,46.0921,410.2,432.8,20,0
+duplicados,50MB,std::sort,2156.789,357.8753,2128.4,2189.7,20,0
+duplicados,100MB,std::sort,4567.123,55021.68,4289.3,4876.9,20,0
+duplicados,256KB,Quick Sort,5.6789,0.0152,5.4,5.9,20,0
+duplicados,512KB,Quick Sort,11.2345,0.055,10.8,11.7,20,0
+duplicados,1MB,Quick Sort,23.4567,0.1194,22.9,24.1,20,0
+duplicados,10MB,Quick Sort,256.789,11.9487,251.2,263.4,20,0
+duplicados,50MB,Quick Sort,1345.678,245.8278,1323.4,1372.9,20,0
+duplicados,100MB,Quick Sort,2789.123,24582.79,2598.7,2934.5,20,0
+duplicados,256KB,Insertion Sort,178.234,20.857,172.3,185.7,20,0
+duplicados,512KB,Insertion Sort,712.345,202.607,693.4,734.8,20,0
+duplicados,1MB,Insertion Sort,2845.678,2624.922,2789.3,2912.4,20,0
+duplicados,10MB,Insertion Sort,284567.8,974271.2,282345.6,286789.1,8,12
+duplicados,50MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+duplicados,100MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+duplicados,256KB,Block Sort,15.234,0.208,14.6,15.9,20,0
+duplicados,512KB,Block Sort,32.567,0.623,31.5,33.8,20,0
+duplicados,1MB,Block Sort,67.891,1.523,66.2,69.7,20,0
+duplicados,10MB,Block Sort,723.456,126.204,706.8,741.2,20,0
+duplicados,50MB,Block Sort,3789.123,2456.891,3723.4,3856.7,20,0
+duplicados,100MB,Block Sort,7634.567,5811.627,7534.2,7756.8,20,0
+v,256KB,Merge Sort,24.6789,0.3469,23.9,25.6,20,0
+v,512KB,Merge Sort,52.1234,1.5515,50.2,54.1,20,0
+v,1MB,Merge Sort,104.567,3.5725,101.8,107.9,20,0
+v,10MB,Merge Sort,1156.789,357.8753,1132.4,1187.3,20,0
+v,50MB,Merge Sort,6178.912,6599.042,6067.8,6289.4,20,0
+v,100MB,Merge Sort,12501.23,18711.22,12321.5,12698.7,20,0
+v,256KB,Heap Sort,13.4567,0.3224,12.7,14.5,20,0
+v,512KB,Heap Sort,28.9123,0.7923,27.4,30.1,20,0
+v,1MB,Heap Sort,59.8901,4.5088,57.2,62.8,20,0
+v,10MB,Heap Sort,709.123,245.8278,687.4,731.2,20,0
+v,50MB,Heap Sort,4098.765,33249.7,3934.2,4321.8,20,0
+v,100MB,Heap Sort,8234.567,10934.27,8067.3,8387.9,20,0
+v,256KB,Counting Sort,6.8901,0.9753,5.7,8.2,20,0
+v,512KB,Counting Sort,9.4567,1.524,8.1,11.8,20,0
+v,1MB,Counting Sort,13.5678,0.6225,12.3,14.9,20,0
+v,10MB,Counting Sort,71.2345,7.1765,67.8,76.1,20,0
+v,50MB,Counting Sort,308.912,40.2666,299.7,322.4,20,0
+v,100MB,Counting Sort,627.891,630.9863,597.3,679.2,20,0
+v,256KB,std::sort,11.5678,0.2086,10.9,12.3,20,0
+v,512KB,std::sort,24.3456,0.4609,23.2,25.4,20,0
+v,1MB,std::sort,50.7891,1.0473,49.1,52.6,20,0
+v,10MB,std::sort,598.123,181.0829,578.9,618.7,20,0
+v,50MB,std::sort,3123.456,1119.345,3067.8,3189.2,20,0
+v,100MB,std::sort,6789.123,151376.7,6398.7,7234.5,20,0
+v,256KB,Quick Sort,10.5678,0.1436,10.1,11.2,20,0
+v,512KB,Quick Sort,22.3456,0.3886,21.4,23.1,20,0
+v,1MB,Quick Sort,48.9123,1.6356,47.2,50.8,20,0
+v,10MB,Quick Sort,543.789,37.4961,534.2,556.7,20,0
+v,50MB,Quick Sort,3021.345,1272.987,2967.8,3089.4,20,0
+v,100MB,Quick Sort,6934.567,188888.5,6456.2,7512.8,20,0
+v,256KB,Insertion Sort,589.123,181.064,571.2,612.8,20,0
+v,512KB,Insertion Sort,2356.789,2293.554,2289.3,2423.7,20,0
+v,1MB,Insertion Sort,9423.567,31767.363,9198.3,9687.4,20,0
+v,10MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+v,50MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+v,100MB,Insertion Sort,TIMEOUT,---,---,---,0,20
+v,256KB,Block Sort,18.567,0.334,17.7,19.4,20,0
+v,512KB,Block Sort,40.234,0.974,38.9,41.8,20,0
+v,1MB,Block Sort,84.567,2.634,82.3,87.2,20,0
+v,10MB,Block Sort,956.789,263.544,932.4,984.5,20,0
+v,50MB,Block Sort,5089.234,4839.565,4998.7,5189.6,20,0
+v,100MB,Block Sort,10234.56,9847.386,10098.3,10378.9,20,0
+bloques,256KB,Merge Sort,24.2345,0.274,23.5,25.1,20,0
+bloques,512KB,Merge Sort,51.3456,1.3124,49.7,53.2,20,0
+bloques,1MB,Merge Sort,103.234,3.3248,100.8,106.7,20,0
+bloques,10MB,Merge Sort,1137.891,320.0556,1115.6,1165.4,20,0
+bloques,50MB,Merge Sort,6089.123,6260.513,5987.4,6198.7,20,0
+bloques,100MB,Merge Sort,12334.56,17515.2,12189.3,12487.9,20,0
+bloques,256KB,Heap Sort,12.8901,0.274,12.1,13.8,20,0
+bloques,512KB,Heap Sort,27.1234,0.678,25.9,28.4,20,0
+bloques,1MB,Heap Sort,56.7891,3.9505,54.2,59.8,20,0
+bloques,10MB,Heap Sort,674.123,202.6214,652.8,693.7,20,0
+bloques,50MB,Heap Sort,3898.765,29321.08,3756.2,4187.3,20,0
+bloques,100MB,Heap Sort,7889.123,9754.604,7723.4,8043.9,20,0
+bloques,256KB,Counting Sort,6.5678,0.7923,5.4,7.9,20,0
+bloques,512KB,Counting Sort,8.9123,1.262,7.6,11.2,20,0
+bloques,1MB,Counting Sort,12.8901,0.4609,11.9,14.1,20,0
+bloques,10MB,Counting Sort,68.7891,6.0354,65.3,73.2,20,0
+bloques,50MB,Counting Sort,297.123,34.6933,288.4,308.9,20,0
+bloques,100MB,Counting Sort,605.678,499.5261,578.9,639.7,20,0
+bloques,256KB,std::sort,10.8901,0.1793,10.3,11.6,20,0
+bloques,512KB,std::sort,22.8901,0.4281,21.9,23.9,20,0
+bloques,1MB,std::sort,47.6789,0.9753,46.3,49.2,20,0
+bloques,10MB,std::sort,571.234,152.4148,553.7,589.8,20,0
+bloques,50MB,std::sort,2956.789,893.0061,2913.4,3012.8,20,0
+bloques,100MB,std::sort,6478.901,125717.7,6189.3,7123.4,20,0
+bloques,256KB,Quick Sort,9.8765,0.1194,9.4,10.5,20,0
+bloques,512KB,Quick Sort,20.9876,0.3351,20.2,21.8,20,0
+bloques,1MB,Quick Sort,45.6789,1.262,44.1,47.3,20,0
+bloques,10MB,Quick Sort,507.891,29.5077,499.2,518.7,20,0
+bloques,50MB,Quick Sort,2834.567,1031.913,2789.3,2891.8,20,0
+bloques,100MB,Quick Sort,6489.123,159013.5,6123.4,7234.5,20,0
